@@ -1,0 +1,6 @@
+ (Forall x. P(x) -> Q(x)) => ~(Exists x. P(x) /\ ~Q(x))
+(Forall x. P(x) -> Q(x))
+(Forall x. ~P(x) \/ Q(x))	DC
+(Forall x. ~P(x) \/ ~~Q(x))	DNE
+(Forall x. ~(P(x) /\ ~Q(x)))	DM
+~(Exists x. P(x) /\ ~Q(x))	DM
